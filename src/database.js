@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 require('dotenv').config();
 
-mongoose.connect(process.env.DB_CONNECT_REMOTE, {
+mongoose.connect(process.env.DB_CONNECT_LOCAL, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useCreateIndex: true,
